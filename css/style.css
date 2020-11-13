@@ -1,0 +1,130 @@
+* {
+	box-sizing: border-box;
+}
+body {
+	font-family: "Playfair Display", serif;
+}
+header,
+main,
+nav,
+footer {
+	max-width: 1200px;
+	height: 100%;
+	margin: 0 auto;
+}
+p {
+	/* Style for "Paragraph" */
+	height: 63px;
+	overflow-y: scroll;
+	color: #626262;
+	font-size: 14px;
+	letter-spacing: normal;
+	line-height: 24px;
+	text-align: left;
+	/* Text style for "Lorem ipsu" */
+	letter-spacing: normal;
+	line-height: normal;
+}
+
+h2 {
+	color: #626262;
+	font-size: 30px;
+	font-weight: 400;
+	letter-spacing: normal;
+	line-height: normal;
+	text-align: left;
+}
+/* Style for "header" */
+
+.header {
+	margin: 70px;
+}
+
+.logo {
+	float: left;
+	margin-right: 370px;
+	margin-left: 13%;
+}
+
+.nav {
+	margin-top: 70px;
+	margin-bottom: 70px;
+}
+
+/* Style for "main" */
+
+.first-post {
+	margin: 70px;
+}
+
+.first-post img {
+	/* Style for "image" */
+	width: 100%;
+	height: 509px;
+}
+
+.first_paragraph {
+	height: auto;
+	overflow: auto;
+}
+.span {
+	font-family: "Ubuntu", sans-serif;
+	color: #b4ad9e;
+	font-size: 14px;
+	letter-spacing: normal;
+	line-height: normal;
+	text-align: left;
+	text-transform: uppercase;
+}
+.blog {
+	margin: 135px 150px;
+}
+.first-row {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.second-row {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	margin-top: 135px;
+	justify-content: space-between;
+}
+
+.third-row {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	margin-top: 135px;
+	justify-content: space-between;
+}
+
+/* Style for "footer" */
+
+.contacts {
+	text-align: center;
+	padding: 15px;
+}
+.contact_link {
+	/* Style for "Terms and" */
+	width: 136px;
+	height: 12px;
+	color: #000000;
+	font-size: 14px;
+	letter-spacing: normal;
+	line-height: 24px;
+	text-align: left;
+}
+.contact_text {
+	margin-left: 640px;
+	width: 42px;
+	height: 12px;
+	color: #000000;
+	font-size: 14px;
+	letter-spacing: normal;
+	line-height: 24px;
+	text-align: left;
+}
