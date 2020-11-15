@@ -91,11 +91,16 @@ h2 {
 	margin: 135px 150px;
 }
 .form {
+	height: 287px;
 	background-color: #f0f0f0;
+	/* display: flex;
+	align-items: center;
+	justify-content: center; */ /* можно пробовать flex-box */
+	padding: 75px 410px; /* можно паддинг для родителя */
 }
-#signup {
+.signup {
 	background-color: #f0f0f0;
-	width: 374px; /* Ширина поля с кнопкой */
+	width: 384px; /* Ширина поля с кнопкой */
 	border-bottom: 3px solid #000; /* Параметры рамки */
 	min-height: 20px; /* Минимальная высота */
 }
@@ -104,13 +109,9 @@ h2 {
 	font-size: 30px;
 	letter-spacing: 0.75px;
 	line-height: normal;
-	text-align: center;
 }
 .mail {
-	outline: none; /* Убираем свечение в Chrome и Safari */
-	-webkit-appearance: none; /* Убираем рамку в Chrome и Safari */
-	width: 300px; /* Ширина поля */
-	vertical-align: middle; /* Выравнивание по середине */
+	width: 335px; /* Ширина поля */
 	border: none;
 	background-color: #f0f0f0;
 	/* Style for "Enter a va" */
@@ -121,8 +122,8 @@ h2 {
 }
 
 .submit {
-	width: 20px; /* Ширина кнопки */
-	height: 20px; /* Высота кнопки */
+	width: 32px; /* Ширина кнопки */
+	height: 17px; /* Высота кнопки */
 	border: none; /* Убираем рамку */
 }
 
@@ -147,6 +148,21 @@ h2 {
 	align-items: center;
 	margin-top: 135px;
 	justify-content: space-between;
+}
+
+.load_more {
+	margin-bottom: 1390px;
+	padding: 5px 490px;
+}
+.button {
+	border: 1px solid #000000;
+	color: #626262;
+	font-size: 20px;
+	line-height: 24px;
+	text-align: left;
+	letter-spacing: normal;
+	text-decoration: none;
+	padding: 20px 35px;
 }
 
 /* Style for "footer" */
